@@ -1,0 +1,12 @@
+{
+  "revision": "shape-v06",
+  "camera": {
+    "lens_mm": 109,
+    "sensor_width_mm": 36,
+    "azimuth_deg": 35.4,
+    "elevation_deg": 9.5,
+    "distance_m": 25,
+    "target_m": [0.43, -0.46, 1.63]
+  },
+  "resolution_px": [1280, 853]
+}

@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "blender": "5.2.4 LTS",
+  "source": {
+    "name": "technical_block_v001",
+    "bounds_min": [
+      -0.6000000238418579,
+      -0.4000000059604645,
+      -1.1920929132713809e-08
+    ],
+    "bounds_max": [
+      0.6000000238418579,
+      0.4000000059604645,
+      0.6000000238418579
+    ],
+    "dimensions_m": [
+      1.2000000476837158,
+      0.800000011920929,
+      0.600000035762787
+    ],
+    "origin_world": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangles": 108,
+    "materials": [
+      {
+        "name": "Body",
+        "base_color": [
+          0.3199999928474426,
+          0.3799999952316284,
+          0.46000000834465027,
+          1.0
+        ],
+        "roughness": 0.7200000286102295
+      },
+      {
+        "name": "FrontMarker",
+        "base_color": [
+          0.6499999761581421,
+          0.23999999463558197,
+          0.05999999865889549,
+          1.0
+        ],
+        "roughness": 0.7200000286102295
+      }
+    ],
+    "nonmanifold_edges_after_qa_weld": 0,
+    "degenerate_faces": 0,
+    "inward_faces_convex_sample_only": 0,
+    "signed_volume_m3": 0.5741303888652971,
+    "finite_unit_normals": true,
+    "front_marker_normal_y": [
+      -0.9238792657852173,
+      -0.9238792657852173,
+      -0.9238793253898621,
+      -0.9238793253898621,
+      -1.0
+    ]
+  },
+  "glb_roundtrip": {
+    "name": "technical_block_v001",
+    "bounds_min": [
+      -0.6000000238418579,
+      -0.4000000059604645,
+      -1.1920929132713809e-08
+    ],
+    "bounds_max": [
+      0.6000000238418579,
+      0.4000000059604645,
+      0.6000000238418579
+    ],
+    "dimensions_m": [
+      1.2000000476837158,
+      0.800000011920929,
+      0.600000035762787
+    ],
+    "origin_world": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "triangles": 108,
+    "materials": [
+      {
+        "name": "Body",
+        "base_color": [
+          0.3199999928474426,
+          0.3799999952316284,
+          0.46000000834465027,
+          1.0
+        ],
+        "roughness": 0.7200000286102295
+      },
+      {
+        "name": "FrontMarker",
+        "base_color": [
+          0.6499999761581421,
+          0.23999999463558197,
+          0.05999999865889549,
+          1.0
+        ],
+        "roughness": 0.7200000286102295
+      }
+    ],
+    "nonmanifold_edges_after_qa_weld": 0,
+    "degenerate_faces": 0,
+    "inward_faces_convex_sample_only": 0,
+    "signed_volume_m3": 0.5741321276608127,
+    "finite_unit_normals": true,
+    "front_marker_normal_y": [
+      -0.9238792657852173,
+      -0.9238792657852173,
+      -0.9238792657852173,
+      -0.9238792657852173,
+      -0.9238793253898621,
+      -0.9238793253898621,
+      -0.9238793253898621,
+      -0.9238793253898621,
+      -1.0,
+      -1.0
+    ]
+  },
+  "scope": "convex untextured static sample; no general concave-normal validator, no UV/animation/LOD checks"
+}

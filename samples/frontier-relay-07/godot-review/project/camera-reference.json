@@ -1,0 +1,125 @@
+{
+  "blender_version": "5.2.4 LTS",
+  "source": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\samples\\frontier-relay-07\\source\\frontier-relay-07-materials-v08.blend",
+  "resolution": [
+    1280,
+    853
+  ],
+  "focal_mm": 109.0,
+  "sensor_width_mm": 36.0,
+  "effective_sensor_height_mm": 23.990625,
+  "horizontal_fov_deg": 18.754121388608706,
+  "vertical_fov_deg": 12.560115203471673,
+  "godot_origin": [
+    14.713417053222656,
+    5.756190299987793,
+    20.558719635009766
+  ],
+  "godot_basis_columns": [
+    [
+      0.8151277303695679,
+      2.8983125233139617e-08,
+      -0.5792812705039978
+    ],
+    [
+      -0.09560892730951309,
+      0.9862856268882751,
+      -0.13453474640846252
+    ],
+    [
+      0.5713368058204651,
+      0.16504746675491333,
+      0.8039487600326538
+    ]
+  ],
+  "clip_m": [
+    0.10000000149011612,
+    600.0
+  ],
+  "landmarks": [
+    {
+      "object": "Continuous clipped fascia",
+      "godot_point": [
+        -1.9200000762939453,
+        3.1679999828338623,
+        2.809999942779541
+      ],
+      "blender_pixel": [
+        115.21085739135742,
+        198.21762561798096
+      ]
+    },
+    {
+      "object": "Entry tread 1",
+      "godot_point": [
+        -1.2300000190734863,
+        0.0,
+        3.5899999141693115
+      ],
+      "blender_pixel": [
+        122.25943565368652,
+        732.2840301990509
+      ]
+    },
+    {
+      "object": "Entry tread 3",
+      "godot_point": [
+        -1.2300000190734863,
+        0.0,
+        2.9100000858306885
+      ],
+      "blender_pixel": [
+        196.8916893005371,
+        710.7679325938225
+      ]
+    },
+    {
+      "object": "Horizontal aperture | surround",
+      "godot_point": [
+        1.7000000476837158,
+        0.4500000476837158,
+        2.3386385440826416
+      ],
+      "blender_pixel": [
+        631.0457611083984,
+        686.1191073656082
+      ]
+    },
+    {
+      "object": "Independent cargo case shell",
+      "godot_point": [
+        2.3399999141693115,
+        0.4699999988079071,
+        -1.0777000188827515
+      ],
+      "blender_pixel": [
+        1014.4028472900391,
+        597.7939935326576
+      ]
+    },
+    {
+      "object": "Equipment column | vertical upper shell",
+      "godot_point": [
+        -1.7000000476837158,
+        1.5540000200271606,
+        2.5
+      ],
+      "blender_pixel": [
+        180.0996971130371,
+        449.4741663336754
+      ]
+    },
+    {
+      "object": "HVAC housing top",
+      "godot_point": [
+        0.25,
+        3.984999895095825,
+        -0.22595000267028809
+      ],
+      "blender_pixel": [
+        678.4459686279297,
+        53.42008328437805
+      ]
+    }
+  ]
+}

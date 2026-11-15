@@ -1,0 +1,358 @@
+{
+  "ambient_energy": 0.589999973773956,
+  "angular_shadow_distance_deg": 0.0,
+  "anisotropy_project_level": 2,
+  "asset": {
+    "imported_collision_shapes": 0,
+    "invalid_normals": 0,
+    "material_count": 16,
+    "materials": {
+      "FR07 PBR | Graphics column": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 5,
+        "metallic": 0.0,
+        "roughness": 0.430000007152557
+      },
+      "FR07 PBR | Graphics roof": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 5,
+        "metallic": 0.0,
+        "roughness": 0.389999985694885
+      },
+      "FR07 PBR | Graphics side": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 5,
+        "metallic": 0.0,
+        "roughness": 0.389999985694885
+      },
+      "FR07 PBR | Graphics stairs": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 5,
+        "metallic": 0.0,
+        "roughness": 0.889999985694885
+      },
+      "FR07 PBR | Red position lamp": {
+        "cull_mode": 2,
+        "emission": true,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.340000003576279
+      },
+      "FR07 | Access cyan": {
+        "cull_mode": 2,
+        "emission": true,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.28999999165535
+      },
+      "FR07 | Charcoal structure": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.600000023841858
+      },
+      "FR07 | Deck stone grey": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.889999985694885
+      },
+      "FR07 | Door graphite": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.469999998807907
+      },
+      "FR07 | Door graphite inset": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.509999990463257
+      },
+      "FR07 | Fluorescent yellow green": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.430000007152557
+      },
+      "FR07 | Recess shadow": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.759999990463257
+      },
+      "FR07 | Signal orange red": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.430000007152557
+      },
+      "FR07 | Tinted window block": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.189999997615814
+      },
+      "FR07 | Warm white enamel": {
+        "cull_mode": 2,
+        "emission": false,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.389999985694885
+      },
+      "FR07 | White fixture": {
+        "cull_mode": 2,
+        "emission": true,
+        "energy": 1.0,
+        "filter": 3,
+        "metallic": 0.0,
+        "roughness": 0.319999992847443
+      }
+    },
+    "mesh_instances": 96,
+    "normals_checked": 13120,
+    "textured_surfaces": 6,
+    "textures": {
+      "FR07 PBR | Graphics column": {
+        "height": 1024,
+        "mipmaps": true,
+        "width": 1024
+      },
+      "FR07 PBR | Graphics roof": {
+        "height": 1024,
+        "mipmaps": true,
+        "width": 1024
+      },
+      "FR07 PBR | Graphics side": {
+        "height": 1024,
+        "mipmaps": true,
+        "width": 1024
+      },
+      "FR07 PBR | Graphics stairs": {
+        "height": 1024,
+        "mipmaps": true,
+        "width": 1024
+      }
+    },
+    "triangle_count_lod0": 10573
+  },
+  "asset_resource": "res://assets/frontier-relay-07-v08.glb",
+  "camera_projection": [
+    {
+      "blender_pixel": [
+        115.210857391357,
+        198.217625617981
+      ],
+      "delta_px": 0.0000275081729341764,
+      "godot_pixel": [
+        115.210838317871,
+        198.21760559082
+      ],
+      "object": "Continuous clipped fascia"
+    },
+    {
+      "blender_pixel": [
+        122.259435653687,
+        732.284030199051
+      ],
+      "delta_px": 0.0000918700752663426,
+      "godot_pixel": [
+        122.259368896484,
+        732.283996582031
+      ],
+      "object": "Entry tread 1"
+    },
+    {
+      "blender_pixel": [
+        196.891689300537,
+        710.767932593822
+      ],
+      "delta_px": 0.0000682393801980652,
+      "godot_pixel": [
+        196.891662597656,
+        710.767883300781
+      ],
+      "object": "Entry tread 3"
+    },
+    {
+      "blender_pixel": [
+        631.045761108398,
+        686.119107365608
+      ],
+      "delta_px": 0.0000863167442730628,
+      "godot_pixel": [
+        631.045715332031,
+        686.119140625
+      ],
+      "object": "Horizontal aperture | surround"
+    },
+    {
+      "blender_pixel": [
+        1014.40284729004,
+        597.793993532658
+      ],
+      "delta_px": 0.0001220703125,
+      "godot_pixel": [
+        1014.40270996094,
+        597.794006347656
+      ],
+      "object": "Independent cargo case shell"
+    },
+    {
+      "blender_pixel": [
+        180.099697113037,
+        449.474166333675
+      ],
+      "delta_px": 0.000213623046875,
+      "godot_pixel": [
+        180.099487304688,
+        449.474151611328
+      ],
+      "object": "Equipment column | vertical upper shell"
+    },
+    {
+      "blender_pixel": [
+        678.44596862793,
+        53.4200832843781
+      ],
+      "delta_px": 0.00018310546875,
+      "godot_pixel": [
+        678.44580078125,
+        53.4200820922852
+      ],
+      "object": "HVAC housing top"
+    }
+  ],
+  "collisions": [
+    {
+      "collider": "Entry tread 1Collision",
+      "expected_m": 0.15,
+      "measured_m": 0.149999931454659,
+      "passed": true,
+      "test": "tread_1"
+    },
+    {
+      "collider": "Entry tread 2Collision",
+      "expected_m": 0.3,
+      "measured_m": 0.299999982118607,
+      "passed": true,
+      "test": "tread_2"
+    },
+    {
+      "collider": "Entry tread 3Collision",
+      "expected_m": 0.45,
+      "measured_m": 0.450000017881393,
+      "passed": true,
+      "test": "tread_3"
+    },
+    {
+      "collider": "Right apron tile 2_1Collision",
+      "expected_m": 0.45,
+      "measured_m": 0.450000017881393,
+      "passed": true,
+      "test": "right_deck"
+    },
+    {
+      "collider": "Cargo case lidCollision",
+      "expected_m": 1.16,
+      "measured_m": 1.1599999666214,
+      "passed": true,
+      "test": "cargo_lid"
+    },
+    {
+      "collider": "ClosedBuilding",
+      "expected_m": 2.22,
+      "measured_m": 2.22000002861023,
+      "passed": true,
+      "test": "closed_entry"
+    },
+    {
+      "collider": "ClosedBuilding",
+      "expected_m": 1.7,
+      "measured_m": 1.70000004768372,
+      "passed": true,
+      "test": "right_wall"
+    },
+    {
+      "collider": "ClosedBuilding",
+      "expected_m": -2.995,
+      "measured_m": -2.99500012397766,
+      "passed": true,
+      "test": "rear_wall"
+    },
+    {
+      "collider": "",
+      "expected_m": null,
+      "measured_m": null,
+      "passed": true,
+      "test": "outside_deck_is_clear"
+    },
+    {
+      "collider": "TestFloor",
+      "expected_m": -0.002,
+      "measured_m": -0.00199997425079346,
+      "passed": true,
+      "test": "test_floor"
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 3060 Ti",
+  "driver": "vulkan",
+  "engine": "4.7.2-stable (steam)",
+  "exposure_multiplier": 1.0,
+  "faults": [],
+  "fixed_camera": "[X: (0.815128, 0.0, -0.579281), Y: (-0.095609, 0.986286, -0.134535), Z: (0.571337, 0.165047, 0.803949), O: (14.71342, 5.75619, 20.55872)]",
+  "fixed_fov_y": 12.5601148605347,
+  "key_energy": 0.860000014305115,
+  "msaa": "4x",
+  "near_views": [
+    "[\"door-front\", (0.5, 1.56, 2.24), (0.0, 0.04, 3.82), 36.0]",
+    "[\"door-oblique\", (0.5, 1.56, 2.24), (2.15, 0.06, 3.35), 36.0]",
+    "[\"window-front\", (1.66, 2.32, 0.2), (4.5, 0.02, 0.0), 35.0]",
+    "[\"window-oblique\", (1.66, 2.32, 0.2), (3.85, 0.19, -2.33), 35.0]",
+    "[\"service-front\", (1.59, 1.78, -2.24), (3.1, 0.0, 0.0), 37.0]",
+    "[\"service-oblique\", (1.59, 1.78, -2.24), (2.65, 0.06, -1.66), 37.0]",
+    "[\"back\", (0.01, 1.63, -2.97), (0.04, 0.36, -5.6), 39.0]"
+  ],
+  "passed": true,
+  "player_traversal": "not tested",
+  "renderer": "forward_plus",
+  "resolution": [
+    1280,
+    853
+  ],
+  "shadow_bias": 0.100000001490116,
+  "shadow_blur": 2.5,
+  "shadow_distance_m": 48.0,
+  "shadow_normal_bias": 1.0,
+  "sun_transform": "[X: (0.857493, 0.0, -0.514496), Y: (-0.406181, 0.613784, -0.676968), Z: (0.31579, 0.789474, 0.526316), O: (2.4, 6.0, 4.0)]",
+  "taa": false,
+  "test_collision_bodies": 29,
+  "tonemap": 0
+}

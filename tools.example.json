@@ -1,0 +1,8 @@
+{
+  "blender_executable": "<absolute path to Blender executable>",
+  "blender_addon": "<absolute path to adapters/vendor/blender_mcp.py>",
+  "blender_port": 9877,
+  "mcp_server": "<absolute path to existing mcp-for-blender executable>",
+  "mcp_python": "<absolute path to Python interpreter with MCP SDK>",
+  "godot_executable": "<absolute path to Godot executable>"
+}

@@ -1,0 +1,17 @@
+{
+  "python_syntax_checked": [
+    "D:\\Game 仓库，一些点子\\game-art-workflow\\adapters\\mcp_call.py",
+    "D:\\Game 仓库，一些点子\\game-art-workflow\\adapters\\blender_start.py",
+    "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\build_asset.py",
+    "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\verify_blender.py"
+  ],
+  "blender_roundtrip": true,
+  "godot_validation": true,
+  "existing_repositories_unchanged": true,
+  "source_and_export_protection": "expected rejection with unchanged source SHA256",
+  "skill_full_validation": "not run: PyYAML absent; exact upstream copy verified; LICENSE and NOTICE preserved",
+  "native_desktop_mcp": "not verified; SDK stdio adapter verified",
+  "formal_art_approval": false,
+  "performance_measured": false,
+  "isolated_blender_session": "closed after source saved"
+}

@@ -1,0 +1,56 @@
+{
+  "blender": "5.2.4 LTS",
+  "render_device": "GPU",
+  "passes": [
+    {
+      "file": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\samples\\frontier-relay-07\\previews\\draft-01-grey.png",
+      "camera": "Camera_Reference",
+      "layer": "Neutral grey",
+      "position_m": [
+        12.323972702026367,
+        -17.724088668823242,
+        4.6779022216796875
+      ],
+      "rotation_deg_xyz": [
+        81.50000966731035,
+        -3.882945731096169e-06,
+        34.500006082689566
+      ],
+      "projection": "PERSP"
+    },
+    {
+      "file": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\samples\\frontier-relay-07\\previews\\draft-02-colour.png",
+      "camera": "Camera_Reference",
+      "layer": "Base colours",
+      "position_m": [
+        12.323972702026367,
+        -17.724088668823242,
+        4.6779022216796875
+      ],
+      "rotation_deg_xyz": [
+        81.50000966731035,
+        -3.882945731096169e-06,
+        34.500006082689566
+      ],
+      "projection": "PERSP"
+    }
+  ],
+  "projected_landmarks_at_full_size_px": {
+    "fascia_front_left": [
+      95.9,
+      145.2
+    ],
+    "fascia_front_right": [
+      628.0,
+      170.0
+    ],
+    "fascia_back_right": [
+      1089.2,
+      127.7
+    ],
+    "entry_threshold": [
+      479.3,
+      638.3
+    ]
+  }
+}

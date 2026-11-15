@@ -1,0 +1,16 @@
+{
+  "matched_render_settings": [
+    "resolution",
+    "camera_world_matrix",
+    "lens_mm",
+    "sensor_mm",
+    "lights",
+    "world",
+    "world_strength",
+    "exposure"
+  ],
+  "baseline_sha256": "c785e5e755608e67eee1919fb66e647ad045c5c69a981f28a79a95bd96b60147",
+  "mesh_scene_object_count_before": 95,
+  "mesh_scene_object_count_after": 101,
+  "readable_full_size_previews": 4
+}

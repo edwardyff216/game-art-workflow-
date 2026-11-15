@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": null,
+  "name": null,
+  "purpose": null,
+  "version": null,
+  "dimensions": {"unit":null,"width":null,"depth":null,"height":null},
+  "forward": {"blender":null,"engine":null},
+  "origin": null,
+  "module": {"family":null,"grid":null,"connectors":[],"dependencies":[],"variants":[]},
+  "materials": [],
+  "budget": {"triangles":null,"material_slots":null,"textures":null,"lods":null},
+  "collision": {"need":null,"type":null,"tested":false},
+  "source": {"kind":null,"reference_paths":[],"tool":null,"license_or_usage_note":null,"author":null},
+  "paths": {"blend":null,"generation_script":null,"textures":[],"export":null,"preview":[],"engine_scene":null},
+  "revision": {"git_branch":null,"git_commit":null,"source_sha256":null,"export_sha256":null,"change_note":null},
+  "acceptance": {"overall":"draft","technical":"not_run","visual":"not_reviewed","game_camera":"not_reviewed","performance":"not_measured","reviewer":null,"evidence":[],"issues":[]}
+}

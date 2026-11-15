@@ -1,0 +1,18 @@
+{
+  "id": "technical_block_v001",
+  "purpose": "技术验证用；不代表最终美术风格",
+  "dimensions_m": [1.2, 0.8, 0.6],
+  "bevel_m": 0.025,
+  "bevel_segments": 2,
+  "base_color_linear": [0.32, 0.38, 0.46, 1.0],
+  "front_color_linear": [0.65, 0.24, 0.06, 1.0],
+  "roughness": 0.72,
+  "triangle_budget": 500,
+  "origin": "bottom_center",
+  "blender_forward": "-Y",
+  "godot_forward": "+Z",
+  "collision": "single BoxShape3D, full outer dimensions",
+  "camera": {"projection":"orthographic", "size":2.5, "godot_vertical_size":1.875, "godot_far":20.0, "resolution":[800,600]},
+  "lighting": {"godot_key_energy":0.5, "godot_ambient_energy":0.3, "godot_tonemap":"linear", "godot_ground_size":20.0},
+  "status": "technical_validation_only"
+}

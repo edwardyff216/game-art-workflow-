@@ -1,0 +1,14 @@
+{
+  "blend": {
+    "path": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\frontier-relay-07\\source\\frontier-relay-07-materials-v08.blend",
+    "sha256": "affb505f1f3df2b721fb06ba721447d4deff09608163bb0f3893954fe09bbb77"
+  },
+  "source_glb": {
+    "path": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\frontier-relay-07\\material-review\\export-check\\frontier-relay-07-v08.glb",
+    "sha256": "6331413c45c2551777b704a9311c5675c07d8f3e9db48b200d42fb0dc2d6d4c2"
+  },
+  "test_glb": {
+    "path": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\frontier-relay-07\\godot-review\\project\\assets\\frontier-relay-07-v08.glb",
+    "sha256": "6331413c45c2551777b704a9311c5675c07d8f3e9db48b200d42fb0dc2d6d4c2"
+  }
+}

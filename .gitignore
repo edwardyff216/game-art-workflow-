@@ -1,0 +1,30 @@
+# Local runtime configuration and transient logs
+/tools.local.json
+**/tools.session.json
+/.codex/config.toml
+*.log
+*.pid
+**/mcp-*.json
+**/__pycache__/
+*.pyc
+
+# Local upstream clones and machine inventory
+/audit/upstream/
+/audit/logs/
+/audit/git-baseline.json
+/audit/git-preservation.json
+/audit/project-file-inventory.json
+/audit/tool-inventory.json
+/audit/tool-paths.json
+
+# Godot editor cache and Blender backups
+**/.godot/
+*.blend1
+
+# Local reference media, regression captures and intermediate drafts
+**/reference/
+**/previews/
+**/frames/
+**/diagnostics/
+/samples/frontier-relay-07/source/frontier-relay-07-shape-v05.blend
+/samples/frontier-relay-07/reports/*.png

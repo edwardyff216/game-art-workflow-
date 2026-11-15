@@ -1,0 +1,18 @@
+{
+  "revision": "greybox-v04",
+  "resolution_px": [1280, 853],
+  "hero_camera": {
+    "projection": "PERSP", "lens_mm": 89, "sensor_width_mm": 36,
+    "azimuth_from_front_deg": 34.5, "elevation_deg": 8.5,
+    "distance_m": 21.5, "target_m": [0.28, -0.20, 1.50],
+    "clip_m": [0.1, 600]
+  },
+  "inspection_camera": {"orthographic_scale_m": 8.7, "rear_three_quarter_scale_m": 9.8, "target_z_m": 2.04},
+  "geometry": {"side_depth_multiplier": 1.135, "door_width_multiplier": 0.86},
+  "lighting": {
+    "world_strength": 0.55, "sun_energy": 1.45, "sun_angle_deg": 8, "exposure_ev": 0.2,
+    "view_transform": "Khronos PBR Neutral",
+    "sun_direction_from_m": [1, -4, 6], "fill_energy_w": 620,
+    "fill_position_m": [4, -5, 5], "fill_size_m": 7
+  }
+}

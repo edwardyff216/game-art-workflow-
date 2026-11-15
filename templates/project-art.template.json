@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "template_requires_project_inputs",
+  "project": {"name":null,"root":null,"art_brief":null,"engine":"Godot","engine_version":null,"executable":null,"renderer":null,"platform":null},
+  "references": [],
+  "style": {"shape_language":null,"palette_roles":{},"material_language":null,"detail_density":null,"edge_treatment":null,"prohibited_effects":[]},
+  "camera": {"projection":null,"fov_or_size":null,"transform":null,"near":null,"far":null,"resolution":null,"motion_range":null},
+  "scale": {"unit":null,"character_height":null,"module_grid":null,"blender_forward":null,"engine_forward":null,"up":null,"origin_rules":{}},
+  "budgets": {"triangles_by_class":{},"material_slots":null,"texture_resolution":null,"texture_memory_mb":null,"visible_instances":null,"lod_policy":null,"frame_time_ms":null,"measurement_device":null},
+  "materials": {"export_policy":null,"color_space_rules":null,"normal_map_convention":null,"baking_policy":null},
+  "lighting": {"diagnostic":{},"production":{},"post_processing":{}},
+  "directories": {"references":null,"source":null,"scripts":null,"textures":null,"exports":null,"previews":null,"engine_validation_scene":null},
+  "acceptance": {"representative_asset":null,"reviewer":null,"approved_reference":null,"technical_status":"not_run","visual_status":"not_reviewed","performance_status":"not_measured"},
+  "open_questions": []
+}

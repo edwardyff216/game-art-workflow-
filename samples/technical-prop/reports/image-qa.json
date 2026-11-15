@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "path": "game-art-workflow/samples/technical-prop/previews/blender_front.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 600,
+      "bytes": 405641,
+      "color_count": 3385,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "problems": []
+    },
+    {
+      "path": "game-art-workflow/samples/technical-prop/previews/blender_rear.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 600,
+      "bytes": 385350,
+      "color_count": 1337,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "problems": []
+    },
+    {
+      "path": "game-art-workflow/samples/technical-prop/previews/godot_front.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 600,
+      "bytes": 16219,
+      "color_count": 251,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "problems": []
+    }
+  ]
+}

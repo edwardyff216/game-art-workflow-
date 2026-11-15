@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "technical_block_v001",
+  "name": "正面标记尺寸块",
+  "purpose": "技术验证用；不代表最终美术风格",
+  "version": "v001",
+  "dimensions": {
+    "unit": "m",
+    "width": 1.2,
+    "depth": 0.8,
+    "height": 0.6,
+    "measured_blender_xyz": [
+      1.2000000476837158,
+      0.800000011920929,
+      0.600000035762787
+    ],
+    "measured_godot_xyz": [
+      1.20000004768372,
+      0.600000023841858,
+      0.800000011920929
+    ]
+  },
+  "forward": {
+    "blender": "-Y",
+    "engine": "+Z"
+  },
+  "origin": "底部中心，世界 (0,0,0)",
+  "module": {
+    "family": "technical_validation",
+    "grid": null,
+    "connectors": [],
+    "dependencies": [],
+    "variants": [
+      "尺寸/倒角/材质参数可更改；新版本输出"
+    ]
+  },
+  "materials": [
+    {
+      "name": "Body",
+      "base_color": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.7200000286102295
+    },
+    {
+      "name": "FrontMarker",
+      "base_color": [
+        0.6499999761581421,
+        0.23999999463558197,
+        0.05999999865889549,
+        1.0
+      ],
+      "roughness": 0.7200000286102295
+    }
+  ],
+  "budget": {
+    "triangles": 500,
+    "measured_triangles": 108,
+    "material_slots": 2,
+    "textures": "无纹理，常量 PBR",
+    "lods": "未实施"
+  },
+  "collision": {
+    "need": "验证静态放置与射线",
+    "type": "Godot BoxShape3D，1.2×0.6×0.8 m",
+    "tested": true
+  },
+  "source": {
+    "kind": "original_parametric_technical_sample",
+    "reference_paths": [],
+    "tool": "Codex authored bpy script via MCP for Blender 2.2.9, Blender 5.2.4 LTS",
+    "license_or_usage_note": "本任务原创技术样板，无外部贴图；未擅自发布为 CC0；第三方工具许可独立记录",
+    "author": "Codex for this user task"
+  },
+  "paths": {
+    "blend": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\source\\technical_block_v001.blend",
+    "generation_script": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\build_asset.py",
+    "parameters": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\asset.params.json",
+    "textures": [],
+    "export": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\exports\\technical_block_v001.glb",
+    "preview": [
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\previews\\blender_front.png",
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\previews\\blender_rear.png",
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\previews\\godot_front.png"
+    ],
+    "engine_scene": "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\godot\\validation.tscn"
+  },
+  "revision": {
+    "git_branch": "main (new workflow repository only)",
+    "git_commit": null,
+    "source_sha256": "a9f0540db88901938e5d0893f6bba92f22ca406bc919a4cd196dab0f0d3d24ef",
+    "export_sha256": "981ae2e0c4ef86ade76cb671b6b44c57d8e9b2104f39cd21faef9c4aeb9ba1ea",
+    "change_note": "技术尺寸块；独立引擎场景阴影范围与测试灯光修正；不改正式资产"
+  },
+  "acceptance": {
+    "overall": "technical_pass_only",
+    "technical": "passed",
+    "visual": "Codex inspected technical preview; formal style not approved",
+    "game_camera": "isolated orthographic test passed; target game camera not reviewed",
+    "performance": "not_measured",
+    "reviewer": "Codex, no user style approval",
+    "evidence": [
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\reports\\blender-roundtrip.json",
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\reports\\godot-validation.json",
+      "D:\\Game 仓库，一些点子\\game-art-workflow\\samples\\technical-prop\\reports\\image-qa.json"
+    ],
+    "issues": [
+      "原生桌面 MCP 热加载未验证；已通过 MCP SDK 适配器连接",
+      "正式参考与目标项目待提供",
+      "本轮无纹理/UV/LOD/动画验证"
+    ]
+  }
+}

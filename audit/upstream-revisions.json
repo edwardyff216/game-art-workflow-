@@ -1,0 +1,18 @@
+[
+  {
+    "path": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\audit\\upstream\\ds-agent-skills",
+    "commit": "7eb549e65c1bd6bba546c0250f8a8641459e5292"
+  },
+  {
+    "path": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\audit\\upstream\\gamedev-skills",
+    "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32"
+  },
+  {
+    "path": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\audit\\upstream\\godot-ai",
+    "commit": "643c64f3edf984a9668b3043f4d20ebb2bbec6b6"
+  },
+  {
+    "path": "D:\\Game \u4ed3\u5e93\uff0c\u4e00\u4e9b\u70b9\u5b50\\game-art-workflow\\audit\\upstream\\mcp-for-blender",
+    "commit": "8f40787fbde8e6d8fe51c5a3553e5635fff40d2b"
+  }
+]

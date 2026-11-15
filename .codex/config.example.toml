@@ -1,0 +1,11 @@
+# Copy to config.toml when enabling the project-scoped native MCP.
+[mcp_servers.blender]
+command = "<absolute path to existing mcp-for-blender executable>"
+enabled_tools = ["get_scene_info", "get_addon_status", "execute_blender_code", "look", "disable_telemetry"]
+startup_timeout_sec = 30
+tool_timeout_sec = 180
+
+[mcp_servers.blender.env]
+BLENDER_HOST = "127.0.0.1"
+BLENDER_PORT = "9877"
+DISABLE_TELEMETRY = "true"

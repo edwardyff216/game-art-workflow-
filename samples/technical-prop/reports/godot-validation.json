@@ -1,0 +1,34 @@
+{
+	"collision_ray_hit_top": true,
+	"dimensions_m": [
+		1.20000004768372,
+		0.600000023841858,
+		0.800000011920929
+	],
+	"engine": "4.7.2-stable (steam)",
+	"front_marker_on_positive_z": true,
+	"materials": [
+		{
+			"albedo_srgb": [
+				0.601243436336517,
+				0.649956464767456,
+				0.708369672298431
+			],
+			"name": "Body",
+			"roughness": 0.720000028610229
+		},
+		{
+			"albedo_srgb": [
+				0.826657056808472,
+				0.527112782001495,
+				0.271699786186218
+			],
+			"name": "FrontMarker",
+			"roughness": 0.720000028610229
+		}
+	],
+	"passed": true,
+	"performance": "not profiled; counts are structural evidence only",
+	"problems": [],
+	"triangles": 108
+}
