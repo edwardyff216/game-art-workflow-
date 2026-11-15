@@ -1,0 +1,85 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3060 Ti",
+	"adapter_api": "1.4.357",
+	"asset": "res://assets/frontier-relay-07-v09.glb",
+	"asset_metadata_unchanged": true,
+	"driver": "vulkan",
+	"engine": "4.7.2-stable (steam)",
+	"environment": {
+		"adjustments": false,
+		"ambient_color": "ffffff",
+		"ambient_energy": 0.5099999904632568,
+		"ambient_sky_contribution_property": 1.0,
+		"ambient_source_enum": 2,
+		"background": "848487",
+		"background_mode_enum": 1,
+		"exposure": 1.0,
+		"floor_color": "747373",
+		"floor_roughness": 0.9399999976158142,
+		"fog": false,
+		"glow": false,
+		"radiance_resolution_px": 128,
+		"reflection_probes": 0,
+		"reflection_source_enum": 2,
+		"sdfgi": false,
+		"sky": "res://lighting_review_sky.gdshader",
+		"ssao": true,
+		"ssao_ao_channel_affect": 0.0,
+		"ssao_detail": 0.5,
+		"ssao_horizon": 0.05999999865889549,
+		"ssao_intensity": 0.800000011920929,
+		"ssao_light_affect": 0.0,
+		"ssao_power": 1.2000000476837158,
+		"ssao_radius_m": 0.550000011920929,
+		"ssao_sharpness": 0.9800000190734863,
+		"ssil": false,
+		"ssr": false,
+		"tonemap_enum": 0,
+		"volumetric_fog": false,
+		"world_camera_attributes": false
+	},
+	"key": {
+		"angular_distance_deg": 0.0,
+		"color": "ffffff",
+		"energy": 1.0700000524520874,
+		"light_ray": "(-0.496669, -0.772596, -0.395495)",
+		"max_distance_m": 48.0,
+		"normal_bias": 1.0,
+		"shadow": true,
+		"shadow_bias": 0.10000000149011612,
+		"shadow_blur": 2.5,
+		"sky_mode": 0,
+		"source_vector": "(5.4, 8.4, 4.3)",
+		"split_blend": true
+	},
+	"matched_camera": {
+		"camera_attributes": false,
+		"clip_m": [
+			0.10000000149011612,
+			600.0
+		],
+		"forward": "(-0.571337, -0.165047, -0.803949)",
+		"position": "(14.71342, 5.75619, 20.55872)",
+		"vertical_fov_deg": 12.560114860534668
+	},
+	"msaa_3d_enum": 2,
+	"oblique_camera": {
+		"camera_attributes": false,
+		"clip_m": [
+			0.10000000149011612,
+			160.0
+		],
+		"forward": "(-0.78698, -0.130772, 0.60296)",
+		"position": "(10.2, 3.1, -7.6)",
+		"vertical_fov_deg": 33.5
+	},
+	"renderer": "forward_plus",
+	"resolution": [
+		1280,
+		853
+	],
+	"shadow_filter_quality_enum": 4,
+	"shadow_map_px": 4096,
+	"taa": false,
+	"variant": "C-AO"
+}

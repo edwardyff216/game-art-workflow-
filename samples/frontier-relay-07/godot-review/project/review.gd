@@ -124,13 +124,17 @@ func inspect_asset() -> Dictionary:
 					faults.append("Missing UV0 on " + String(mesh.name))
 				textures[id] = {"width": tex.get_width(), "height": tex.get_height(),
 					"mipmaps": tex.get_image().has_mipmaps()}
-	var expected_meshes := 95 if asset_scene.resource_path.ends_with("-v09.glb") else 96
-	if mesh_count != expected_meshes or materials.size() != 16 or textures.size() != 4 or invalid_normals > 0:
+	var expected_meshes := 96 if asset_scene.resource_path.ends_with("-v08.glb") else 95
+	if mesh_count != expected_meshes or materials.size() != 16 or textures.size() != expected_base_color_maps() or invalid_normals > 0:
 		faults.append("Import counts or normals differ from expectation.")
 	return {"mesh_instances": mesh_count, "triangle_count_lod0": triangles,
 		"material_count": materials.size(), "materials": materials, "textures": textures,
 		"textured_surfaces": marked_surfaces, "normals_checked": normals_checked,
 		"invalid_normals": invalid_normals, "imported_collision_shapes": initial_colliders}
+
+
+func expected_base_color_maps() -> int:
+	return 4
 
 
 func create_studio() -> void:
@@ -192,7 +196,7 @@ func use_anisotropic_marks() -> void:
 		var mesh := node as MeshInstance3D
 		for index in mesh.mesh.get_surface_count():
 			var material := mesh.get_active_material(index) as StandardMaterial3D
-			if material != null and material.albedo_texture != null:
+			if material != null and (material.albedo_texture != null or material.roughness_texture != null):
 				material.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
 
 

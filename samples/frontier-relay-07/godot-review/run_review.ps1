@@ -11,7 +11,7 @@ $argsList = @('--path', ('"' + $project + '"'))
 if ($Mode -eq 'import') {
     $argsList += @('--headless','--editor','--import')
 } else {
-    $argsList += @('--disable-vsync','--', $Mode)
+    $argsList += @('--disable-vsync','res://review.tscn','--', $Mode)
 }
 $process = Start-Process -FilePath $config.godot_executable -ArgumentList $argsList -WindowStyle Hidden -PassThru `
     -RedirectStandardOutput (Join-Path $reports "$Mode.log") `

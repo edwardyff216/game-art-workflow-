@@ -42,4 +42,4 @@
 
 上游仓库仅作为审查副本保存在 audit/upstream，记录了固定提交；不作为已安装插件。完整版本、来源、未执行项和原生 MCP 注册限制见 audit/ENVIRONMENT.md。
 
-首轮样板建立时工作流 main 尚无提交。后续本地检查点的文件范围见 [版本管理说明](VERSION_CONTROL.md)，当前样板版本见 [Frontier Relay 07 接缝验收](samples/frontier-relay-07/seam-review/REVIEW.md)。
+首轮样板建立时工作流 main 尚无提交。后续本地检查点的文件范围见 [版本管理说明](VERSION_CONTROL.md)，当前默认样板版本见 [Frontier Relay 07 v10 最终记录](samples/frontier-relay-07/final-review/REVIEW.md)，回退基线见 [v09 接缝验收](samples/frontier-relay-07/seam-review/REVIEW.md)。

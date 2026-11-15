@@ -1,8 +1,8 @@
 config_version=5
 
 [application]
-config/name="Frontier Relay 07 - v08 Visual Review"
-run/main_scene="res://review.tscn"
+config/name="Frontier Relay 07 - Workflow v1"
+run/main_scene="res://frontier_relay.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]

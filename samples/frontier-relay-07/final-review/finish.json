@@ -1,0 +1,18 @@
+{
+  "revision": "v10",
+  "concrete": {
+    "tile_m": 2.4,
+    "swatch_rgb": [124, 123, 119],
+    "seed": 1709,
+    "color_max_delta_u8": 7,
+    "roughness": 0.89,
+    "roughness_max_delta": 0.055
+  },
+  "coating": {
+    "tile_m": 1.6,
+    "white_roughness": 0.39,
+    "lime_roughness": 0.43,
+    "roughness_max_delta": 0.065
+  },
+  "stairs_uv_bounds": [-1.24, 2.03, -3.65, -1.80]
+}

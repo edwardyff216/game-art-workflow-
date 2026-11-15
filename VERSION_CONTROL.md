@@ -1,15 +1,15 @@
 # 工作流版本管理
 
-本库最初只有 Git 元数据和未跟踪文件。v09 开工时没有任何历史提交或远程，提交者配置可用，未发现阻止本地提交的配置问题。此前各轮保留的是工作区文件，本轮建立首个本地检查点。可用 `git log -1 --oneline` 查询实际提交。
+v09 建立了首个本地检查点 `330fc62`。v1 继续保留 v09 源、GLB、原场景和验收记录，v10 另存并作为默认样板。可用 `git log -1 --oneline` 和 `git status --short --branch` 查看当前提交与工作区。
 
-| 入库 | 留在当前工作区 |
-|---|---|
-| 通用文档、项目模板、脚本、测试场景、导入配置、资产和验收记录 | Godot 缓存、Blender 自动备份、工具临时日志、进程 PID |
-| 已选用的 `.blend` 检查点、可回退 GLB、测试场景依赖的 GLB 和底色 PNG | 可重建的渲染、参考附件、录像、逐帧素材、临时诊断图和形体 v05 草稿 |
-| 示例工具配置、必要第三方许可和固定版本记录 | 带绝对安装路径的本机 JSON/TOML、上游审查克隆及涉及其他项目的临时清单 |
+| 入库 | 留在本机或可重建 |
+| --- | --- |
+| 流程、模板、脚本、项目配置和导入设置 | Godot 缓存、Blender 自动备份、日志、PID、本机配置 |
+| 可编辑检查点、回退 GLB、默认场景使用的 GLB 与小型依赖 | 用户原始参考附件、上游审查克隆与临时诊断 |
+| 资产版本记录、报告和精选验收图 | 全尺寸截图序列、逐帧素材和录像 |
 
-当前投入检查点的 `.blend` 与 `.glb` 均小于 1 MiB，使用普通 Git 二进制文件保存，便于本地回退。小型运行时 PNG 也入库。渲染和录像继续留在各轮交付的本机路径，可按验收脚本重建。原始参考图随用户附件保存，重新检出时需自行放回。见 [忽略规则](.gitignore) 与 [二进制属性](.gitattributes)。
+已交付的二进制源和运行资产使用普通 Git。v10 GLB 嵌入运行材质贴图，Godot 采用提取模式并保存提取的 PNG 和导入配置。用于 Blender 的生成贴图也随源保存。精选验收图放在样板的 `final-review/evidence/`，完整的图和录像用入口复现。参见 [忽略规则](.gitignore) 和 [二进制属性](.gitattributes)。
 
-将来单件制作源或发布资产达到 10 MiB，或频繁更新的大资产明显推高仓库体积，先选定资产路径、再在添加到索引前启用该路径的 Git LFS。此机器已检测到 Git LFS 3.6.1。可用 `git lfs install --local` 和 `git lfs track "相对资产路径"`，同时纳入更新后的 `.gitattributes`。本检查点可从本地 Git 对象恢复。对象库及本机预览可通过常规工作区备份保存。
+单个制作源或发布资产达到 10 MiB，或频繁更新的二进制明显推高体积时，先评估具体路径，再考虑使用 Git LFS。该机器已检测到 Git LFS 3.6.1。可按需执行 `git lfs install --local` 与 `git lfs track "相对资产路径"`，将规则纳入 `.gitattributes`。使用本地工作区备份保存对象库和独立媒体。
 
-重新检出时从 [tools.example.json](tools.example.json) 复制并填写 `tools.local.json`。样板启动脚本需要时可再复制为样板自己的 `tools.session.json`。原生 Codex MCP 配置用 [.codex/config.example.toml](.codex/config.example.toml) 作为样例。测试场景打开后由 Godot 重新生成 `.godot` 导入缓存。
+检出后从 [tools.example.json](tools.example.json) 复制填写 `tools.local.json`，启动脚本也可指定外部配置。旧轮次实验使用样板自己的 `tools.session.json` 时，按同结构提供其 Godot 路径。原生 MCP 的项目配置样例见 [.codex/config.example.toml](.codex/config.example.toml)。Godot 导入会重建 `.godot`。工作流本地检查点按明确范围提交，远程操作另行授权。

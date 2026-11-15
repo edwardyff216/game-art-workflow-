@@ -1,6 +1,6 @@
 # 资产拆解清单
 
-各模块共享 [参考图](reference/relay-reference.jpg) 与 [灰盒源文件](source/frontier-relay-07.blend)。尺寸单位为米，正面约定是 −Y，侧墙及侧墙设备朝 +X。清单状态均为灰盒待验收。脚本输出为可编辑 Blender 对象，进一步细化前可按集合修改，运行时碰撞、复杂度预算与导出路径留待正式制作。
+各模块共享 [参考图](reference/relay-reference.jpg) 与 [灰盒源文件](source/frontier-relay-07.blend)。尺寸单位为米，正面约定是 −Y，侧墙及侧墙设备朝 +X。清单记录最初的模块拆解。最终 v10 源文件、实际导出、静态碰撞与验收状态见 [最终样板记录](final-review/REVIEW.md)。各集合仍可独立编辑。
 
 | 集合 | 用途和主要构件 | 原点及模块接口 | 材质 |
 |---|---|---|---|

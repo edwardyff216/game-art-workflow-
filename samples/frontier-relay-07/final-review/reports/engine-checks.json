@@ -1,0 +1,1039 @@
+{
+	"baseline": {
+		"asset": {
+			"imported_collision_shapes": 0,
+			"invalid_normals": 0,
+			"material_count": 16,
+			"materials": {
+				"FR07 PBR | Graphics column": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 0.4300000071525574
+				},
+				"FR07 PBR | Graphics roof": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 0.38999998569488525
+				},
+				"FR07 PBR | Graphics side": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 0.38999998569488525
+				},
+				"FR07 PBR | Graphics stairs": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 0.8899999856948853
+				},
+				"FR07 PBR | Red position lamp": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.3400000035762787
+				},
+				"FR07 | Access cyan": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.28999999165534973
+				},
+				"FR07 | Charcoal structure": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.6000000238418579
+				},
+				"FR07 | Deck stone grey": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.8899999856948853
+				},
+				"FR07 | Door graphite": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.4699999988079071
+				},
+				"FR07 | Door graphite inset": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.5099999904632568
+				},
+				"FR07 | Fluorescent yellow green": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.4300000071525574
+				},
+				"FR07 | Recess shadow": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.7599999904632568
+				},
+				"FR07 | Signal orange red": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.4300000071525574
+				},
+				"FR07 | Tinted window block": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.1899999976158142
+				},
+				"FR07 | Warm white enamel": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.38999998569488525
+				},
+				"FR07 | White fixture": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.3199999928474426
+				}
+			},
+			"mesh_instances": 95,
+			"normals_checked": 13192,
+			"textured_surfaces": 6,
+			"textures": {
+				"FR07 PBR | Graphics column": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics roof": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics side": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics stairs": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				}
+			},
+			"triangle_count_lod0": 10577
+		},
+		"asset_path": "res://assets/frontier-relay-07-v09.glb",
+		"cameras": {
+			"far": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 22.800899505615234,
+				"forward": "(-0.621467, -0.203501, -0.756549)",
+				"position": "(14.6, 6.2, 17.5)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 40.0
+			},
+			"front": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.029460906982422,
+				"forward": "(0.0, -0.12563, -0.992077)",
+				"position": "(0.43, 2.82, 10.2)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			},
+			"matched": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					600.0
+				],
+				"forward": "(-0.571337, -0.165047, -0.803949)",
+				"position": "(14.71342, 5.75619, 20.55872)",
+				"vertical_fov_deg": 12.560114860534668
+			},
+			"mid-oblique": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 12.770333290100098,
+				"forward": "(-0.78698, -0.130772, 0.60296)",
+				"position": "(10.2, 3.1, -7.6)",
+				"target": "(0.15, 1.43, 0.1)",
+				"vertical_fov_deg": 33.5
+			},
+			"near-crate": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 3.065322160720825,
+				"forward": "(-0.760116, -0.349066, -0.548066)",
+				"position": "(4.95, 1.85, 0.2)",
+				"target": "(2.62, 0.78, -1.48)",
+				"vertical_fov_deg": 42.0
+			},
+			"near-stairs": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 3.4095308780670166,
+				"forward": "(-0.504468, -0.363686, -0.783099)",
+				"position": "(2.25, 1.74, 5.5)",
+				"target": "(0.53, 0.5, 2.83)",
+				"vertical_fov_deg": 44.0
+			},
+			"rear": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.874378204345703,
+				"forward": "(0.0, -0.150813, 0.988562)",
+				"position": "(0.43, 3.2, -10.5)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			},
+			"side": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.886734962463379,
+				"forward": "(-0.989277, -0.146049, 0.0)",
+				"position": "(11.2, 3.15, 0.25)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			}
+		},
+		"collision": [
+			{
+				"collider": "Entry tread 1Collision",
+				"expected_m": 0.15,
+				"measured_m": 0.1499999314546585,
+				"passed": true,
+				"test": "tread_1"
+			},
+			{
+				"collider": "Entry tread 2Collision",
+				"expected_m": 0.3,
+				"measured_m": 0.29999998211860657,
+				"passed": true,
+				"test": "tread_2"
+			},
+			{
+				"collider": "Entry tread 3Collision",
+				"expected_m": 0.45,
+				"measured_m": 0.45000001788139343,
+				"passed": true,
+				"test": "tread_3"
+			},
+			{
+				"collider": "Right apron tile 2_1Collision",
+				"expected_m": 0.45,
+				"measured_m": 0.45000001788139343,
+				"passed": true,
+				"test": "right_deck"
+			},
+			{
+				"collider": "Cargo case lidCollision",
+				"expected_m": 1.16,
+				"measured_m": 1.159999966621399,
+				"passed": true,
+				"test": "cargo_lid"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": 2.22,
+				"measured_m": 2.2200000286102295,
+				"passed": true,
+				"test": "closed_entry"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": 1.7,
+				"measured_m": 1.7000000476837158,
+				"passed": true,
+				"test": "right_wall"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": -2.995,
+				"measured_m": -2.995000123977661,
+				"passed": true,
+				"test": "rear_wall"
+			},
+			{
+				"collider": "",
+				"expected_m": null,
+				"measured_m": null,
+				"passed": true,
+				"test": "outside_deck_is_clear"
+			},
+			{
+				"collider": "TestFloor",
+				"expected_m": -0.002,
+				"measured_m": -0.001999974250793457,
+				"passed": true,
+				"test": "test_floor"
+			}
+		],
+		"collision_bodies": 29,
+		"faults": [],
+		"projection": [
+			{
+				"blender_pixel": [
+					115.21085739135742,
+					198.21762561798096
+				],
+				"delta_px": 2.75081729341764e-05,
+				"godot_pixel": [
+					115.2108383178711,
+					198.2176055908203
+				],
+				"object": "Continuous clipped fascia"
+			},
+			{
+				"blender_pixel": [
+					122.25943565368652,
+					732.2840301990509
+				],
+				"delta_px": 9.187007526634261e-05,
+				"godot_pixel": [
+					122.25936889648438,
+					732.2839965820313
+				],
+				"object": "Entry tread 1"
+			},
+			{
+				"blender_pixel": [
+					196.8916893005371,
+					710.7679325938225
+				],
+				"delta_px": 6.823938019806519e-05,
+				"godot_pixel": [
+					196.89166259765625,
+					710.7678833007813
+				],
+				"object": "Entry tread 3"
+			},
+			{
+				"blender_pixel": [
+					631.0457611083984,
+					686.1191073656082
+				],
+				"delta_px": 8.63167442730628e-05,
+				"godot_pixel": [
+					631.0457153320313,
+					686.119140625
+				],
+				"object": "Horizontal aperture | surround"
+			},
+			{
+				"blender_pixel": [
+					1014.4028472900392,
+					597.7939935326576
+				],
+				"delta_px": 0.0001220703125,
+				"godot_pixel": [
+					1014.4027099609375,
+					597.7940063476563
+				],
+				"object": "Independent cargo case shell"
+			},
+			{
+				"blender_pixel": [
+					180.0996971130371,
+					449.4741663336754
+				],
+				"delta_px": 0.000213623046875,
+				"godot_pixel": [
+					180.0994873046875,
+					449.4741516113281
+				],
+				"object": "Equipment column | vertical upper shell"
+			},
+			{
+				"blender_pixel": [
+					678.4459686279297,
+					53.42008328437805
+				],
+				"delta_px": 0.00018310546875,
+				"godot_pixel": [
+					678.44580078125,
+					53.420082092285156
+				],
+				"object": "HVAC housing top"
+			}
+		],
+		"roughness_maps": {},
+		"studio": {
+			"adapter": "NVIDIA GeForce RTX 3060 Ti",
+			"adapter_api": "1.4.357",
+			"driver": "vulkan",
+			"engine": "4.7.2-stable (steam)",
+			"environment": {
+				"adjustments": false,
+				"ambient_color": "ffffff",
+				"ambient_energy": 0.5099999904632568,
+				"ambient_sky_contribution_property": 1.0,
+				"ambient_source_enum": 2,
+				"background": "848487",
+				"background_mode_enum": 1,
+				"exposure": 1.0,
+				"floor_color": "747373",
+				"floor_roughness": 0.9399999976158142,
+				"fog": false,
+				"glow": false,
+				"radiance_resolution_px": 128,
+				"reflection_probes": 0,
+				"reflection_source_enum": 2,
+				"sdfgi": false,
+				"sky": "res://lighting_review_sky.gdshader",
+				"ssao": false,
+				"ssao_ao_channel_affect": 0.0,
+				"ssao_detail": 0.5,
+				"ssao_horizon": 0.05999999865889549,
+				"ssao_intensity": 2.0,
+				"ssao_light_affect": 0.0,
+				"ssao_power": 1.5,
+				"ssao_radius_m": 1.0,
+				"ssao_sharpness": 0.9800000190734863,
+				"ssil": false,
+				"ssr": false,
+				"tonemap_enum": 0,
+				"volumetric_fog": false,
+				"world_camera_attributes": false
+			},
+			"key": {
+				"angular_distance_deg": 0.0,
+				"color": "ffffff",
+				"energy": 1.0700000524520874,
+				"light_ray": "(-0.496669, -0.772596, -0.395495)",
+				"max_distance_m": 48.0,
+				"normal_bias": 1.0,
+				"shadow": true,
+				"shadow_bias": 0.10000000149011612,
+				"shadow_blur": 2.5,
+				"sky_mode": 0,
+				"source_vector": "(5.4, 8.4, 4.3)",
+				"split_blend": true
+			},
+			"msaa_3d_enum": 2,
+			"renderer": "forward_plus",
+			"resolution": [
+				1280,
+				853
+			],
+			"shadow_filter_quality_enum": 4,
+			"shadow_map_px": 4096,
+			"taa": false
+		}
+	},
+	"default_scene": "res://frontier_relay.tscn",
+	"driver": "vulkan",
+	"engine": "4.7.2-stable (steam)",
+	"final": {
+		"asset": {
+			"imported_collision_shapes": 0,
+			"invalid_normals": 0,
+			"material_count": 16,
+			"materials": {
+				"FR07 PBR | Graphics column": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 PBR | Graphics roof": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 PBR | Graphics side": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 PBR | Graphics stairs": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 PBR | Red position lamp": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.3400000035762787
+				},
+				"FR07 | Access cyan": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.28999999165534973
+				},
+				"FR07 | Charcoal structure": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.6000000238418579
+				},
+				"FR07 | Deck stone grey": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 | Door graphite": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.4699999988079071
+				},
+				"FR07 | Door graphite inset": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.5099999904632568
+				},
+				"FR07 | Fluorescent yellow green": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 | Recess shadow": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.7599999904632568
+				},
+				"FR07 | Signal orange red": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.4300000071525574
+				},
+				"FR07 | Tinted window block": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.1899999976158142
+				},
+				"FR07 | Warm white enamel": {
+					"cull_mode": 2,
+					"emission": false,
+					"energy": 1.0,
+					"filter": 5,
+					"metallic": 0.0,
+					"roughness": 1.0
+				},
+				"FR07 | White fixture": {
+					"cull_mode": 2,
+					"emission": true,
+					"energy": 1.0,
+					"filter": 3,
+					"metallic": 0.0,
+					"roughness": 0.3199999928474426
+				}
+			},
+			"mesh_instances": 95,
+			"normals_checked": 14344,
+			"textured_surfaces": 27,
+			"textures": {
+				"FR07 PBR | Graphics column": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics roof": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics side": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 PBR | Graphics stairs": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				},
+				"FR07 | Deck stone grey": {
+					"height": 1024,
+					"mipmaps": true,
+					"width": 1024
+				}
+			},
+			"triangle_count_lod0": 10577
+		},
+		"asset_path": "res://assets/frontier-relay-07-v10.glb",
+		"cameras": {
+			"far": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 22.800899505615234,
+				"forward": "(-0.621467, -0.203501, -0.756549)",
+				"position": "(14.6, 6.2, 17.5)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 40.0
+			},
+			"front": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.029460906982422,
+				"forward": "(0.0, -0.12563, -0.992077)",
+				"position": "(0.43, 2.82, 10.2)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			},
+			"matched": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					600.0
+				],
+				"forward": "(-0.571337, -0.165047, -0.803949)",
+				"position": "(14.71342, 5.75619, 20.55872)",
+				"vertical_fov_deg": 12.560114860534668
+			},
+			"mid-oblique": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 12.770333290100098,
+				"forward": "(-0.78698, -0.130772, 0.60296)",
+				"position": "(10.2, 3.1, -7.6)",
+				"target": "(0.15, 1.43, 0.1)",
+				"vertical_fov_deg": 33.5
+			},
+			"near-crate": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 3.065322160720825,
+				"forward": "(-0.760116, -0.349066, -0.548066)",
+				"position": "(4.95, 1.85, 0.2)",
+				"target": "(2.62, 0.78, -1.48)",
+				"vertical_fov_deg": 42.0
+			},
+			"near-stairs": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 3.4095308780670166,
+				"forward": "(-0.504468, -0.363686, -0.783099)",
+				"position": "(2.25, 1.74, 5.5)",
+				"target": "(0.53, 0.5, 2.83)",
+				"vertical_fov_deg": 44.0
+			},
+			"rear": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.874378204345703,
+				"forward": "(0.0, -0.150813, 0.988562)",
+				"position": "(0.43, 3.2, -10.5)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			},
+			"side": {
+				"camera_attributes": false,
+				"clip_m": [
+					0.10000000149011612,
+					160.0
+				],
+				"distance_to_target_m": 10.886734962463379,
+				"forward": "(-0.989277, -0.146049, 0.0)",
+				"position": "(11.2, 3.15, 0.25)",
+				"target": "(0.43, 1.56, 0.25)",
+				"vertical_fov_deg": 38.0
+			}
+		},
+		"collision": [
+			{
+				"collider": "Entry tread 1Collision",
+				"expected_m": 0.15,
+				"measured_m": 0.1499999314546585,
+				"passed": true,
+				"test": "tread_1"
+			},
+			{
+				"collider": "Entry tread 2Collision",
+				"expected_m": 0.3,
+				"measured_m": 0.29999998211860657,
+				"passed": true,
+				"test": "tread_2"
+			},
+			{
+				"collider": "Entry tread 3Collision",
+				"expected_m": 0.45,
+				"measured_m": 0.45000001788139343,
+				"passed": true,
+				"test": "tread_3"
+			},
+			{
+				"collider": "Right apron tile 2_1Collision",
+				"expected_m": 0.45,
+				"measured_m": 0.45000001788139343,
+				"passed": true,
+				"test": "right_deck"
+			},
+			{
+				"collider": "Cargo case lidCollision",
+				"expected_m": 1.16,
+				"measured_m": 1.159999966621399,
+				"passed": true,
+				"test": "cargo_lid"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": 2.22,
+				"measured_m": 2.2200000286102295,
+				"passed": true,
+				"test": "closed_entry"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": 1.7,
+				"measured_m": 1.7000000476837158,
+				"passed": true,
+				"test": "right_wall"
+			},
+			{
+				"collider": "ClosedBuilding",
+				"expected_m": -2.995,
+				"measured_m": -2.995000123977661,
+				"passed": true,
+				"test": "rear_wall"
+			},
+			{
+				"collider": "",
+				"expected_m": null,
+				"measured_m": null,
+				"passed": true,
+				"test": "outside_deck_is_clear"
+			},
+			{
+				"collider": "TestFloor",
+				"expected_m": -0.002,
+				"measured_m": -0.001999974250793457,
+				"passed": true,
+				"test": "test_floor"
+			}
+		],
+		"collision_bodies": 29,
+		"faults": [],
+		"projection": [
+			{
+				"blender_pixel": [
+					115.21085739135742,
+					198.21762561798096
+				],
+				"delta_px": 2.75081729341764e-05,
+				"godot_pixel": [
+					115.2108383178711,
+					198.2176055908203
+				],
+				"object": "Continuous clipped fascia"
+			},
+			{
+				"blender_pixel": [
+					122.25943565368652,
+					732.2840301990509
+				],
+				"delta_px": 9.187007526634261e-05,
+				"godot_pixel": [
+					122.25936889648438,
+					732.2839965820313
+				],
+				"object": "Entry tread 1"
+			},
+			{
+				"blender_pixel": [
+					196.8916893005371,
+					710.7679325938225
+				],
+				"delta_px": 6.823938019806519e-05,
+				"godot_pixel": [
+					196.89166259765625,
+					710.7678833007813
+				],
+				"object": "Entry tread 3"
+			},
+			{
+				"blender_pixel": [
+					631.0457611083984,
+					686.1191073656082
+				],
+				"delta_px": 8.63167442730628e-05,
+				"godot_pixel": [
+					631.0457153320313,
+					686.119140625
+				],
+				"object": "Horizontal aperture | surround"
+			},
+			{
+				"blender_pixel": [
+					1014.4028472900392,
+					597.7939935326576
+				],
+				"delta_px": 0.0001220703125,
+				"godot_pixel": [
+					1014.4027099609375,
+					597.7940063476563
+				],
+				"object": "Independent cargo case shell"
+			},
+			{
+				"blender_pixel": [
+					180.0996971130371,
+					449.4741663336754
+				],
+				"delta_px": 0.000213623046875,
+				"godot_pixel": [
+					180.0994873046875,
+					449.4741516113281
+				],
+				"object": "Equipment column | vertical upper shell"
+			},
+			{
+				"blender_pixel": [
+					678.4459686279297,
+					53.42008328437805
+				],
+				"delta_px": 0.00018310546875,
+				"godot_pixel": [
+					678.44580078125,
+					53.420082092285156
+				],
+				"object": "HVAC housing top"
+			}
+		],
+		"roughness_maps": {
+			"FR07 PBR | Graphics column": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 512,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 512
+			},
+			"FR07 PBR | Graphics roof": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 512,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 512
+			},
+			"FR07 PBR | Graphics side": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 512,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 512
+			},
+			"FR07 PBR | Graphics stairs": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 1024,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 1024
+			},
+			"FR07 | Deck stone grey": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 1024,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 1024
+			},
+			"FR07 | Fluorescent yellow green": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 512,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 512
+			},
+			"FR07 | Warm white enamel": {
+				"channel": 1,
+				"factor": 1.0,
+				"height": 512,
+				"mipmaps": true,
+				"texture_filter": 5,
+				"width": 512
+			}
+		},
+		"studio": {
+			"adapter": "NVIDIA GeForce RTX 3060 Ti",
+			"adapter_api": "1.4.357",
+			"driver": "vulkan",
+			"engine": "4.7.2-stable (steam)",
+			"environment": {
+				"adjustments": false,
+				"ambient_color": "ffffff",
+				"ambient_energy": 0.5099999904632568,
+				"ambient_sky_contribution_property": 1.0,
+				"ambient_source_enum": 2,
+				"background": "848487",
+				"background_mode_enum": 1,
+				"exposure": 1.0,
+				"floor_color": "747373",
+				"floor_roughness": 0.9399999976158142,
+				"fog": false,
+				"glow": false,
+				"radiance_resolution_px": 128,
+				"reflection_probes": 0,
+				"reflection_source_enum": 2,
+				"sdfgi": false,
+				"sky": "res://lighting_review_sky.gdshader",
+				"ssao": false,
+				"ssao_ao_channel_affect": 0.0,
+				"ssao_detail": 0.5,
+				"ssao_horizon": 0.05999999865889549,
+				"ssao_intensity": 2.0,
+				"ssao_light_affect": 0.0,
+				"ssao_power": 1.5,
+				"ssao_radius_m": 1.0,
+				"ssao_sharpness": 0.9800000190734863,
+				"ssil": false,
+				"ssr": false,
+				"tonemap_enum": 0,
+				"volumetric_fog": false,
+				"world_camera_attributes": false
+			},
+			"key": {
+				"angular_distance_deg": 0.0,
+				"color": "ffffff",
+				"energy": 1.0700000524520874,
+				"light_ray": "(-0.496669, -0.772596, -0.395495)",
+				"max_distance_m": 48.0,
+				"normal_bias": 1.0,
+				"shadow": true,
+				"shadow_bias": 0.10000000149011612,
+				"shadow_blur": 2.5,
+				"sky_mode": 0,
+				"source_vector": "(5.4, 8.4, 4.3)",
+				"split_blend": true
+			},
+			"msaa_3d_enum": 2,
+			"renderer": "forward_plus",
+			"resolution": [
+				1280,
+				853
+			],
+			"shadow_filter_quality_enum": 4,
+			"shadow_map_px": 4096,
+			"taa": false
+		}
+	},
+	"gpu": "NVIDIA GeForce RTX 3060 Ti",
+	"orbit_fps": 24,
+	"orbit_frames": 144,
+	"performance": "not tested",
+	"player_traversal": "not tested",
+	"same_studio_and_cameras": true
+}

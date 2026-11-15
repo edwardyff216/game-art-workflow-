@@ -1,0 +1,91 @@
+{
+  "source_sha256": "6e8409bfbdc5eaa89e112e6ea232d7d39251c1c090bba6ba996d6617e9f90826",
+  "glb_sha256": "bc5f4574ad6400c3205b1ac01455f39a5fdc14ed95859a24be66b073852b82ea",
+  "baseline_source_sha256": "e39898ea299ed915310d3e68723465f496b80110651958b5aaf9ae7c385c646f",
+  "baseline_glb_sha256": "4bfa2ae6df8c824e836ebbf31512957cc8a1e2eee8f0ca5c30e9312dcdc2a88a",
+  "mesh_nodes_matching_positions_triangle_winding_normals_and_transforms": 95,
+  "existing_marked_uv_unchanged_except_stair_v": true,
+  "materials_changed": [
+    "FR07 PBR | Graphics column",
+    "FR07 PBR | Graphics roof",
+    "FR07 PBR | Graphics side",
+    "FR07 PBR | Graphics stairs",
+    "FR07 | Deck stone grey",
+    "FR07 | Fluorescent yellow green",
+    "FR07 | Warm white enamel"
+  ],
+  "packed_images": 12,
+  "roughness_maps": {
+    "FR07 | Warm white enamel": {
+      "size": [
+        512,
+        512
+      ],
+      "roughness_range": [
+        0.33725490196078434,
+        0.4470588235294118
+      ]
+    },
+    "FR07 | Fluorescent yellow green": {
+      "size": [
+        512,
+        512
+      ],
+      "roughness_range": [
+        0.3764705882352941,
+        0.48627450980392156
+      ]
+    },
+    "FR07 PBR | Graphics roof": {
+      "size": [
+        512,
+        512
+      ],
+      "roughness_range": [
+        0.33725490196078434,
+        0.4470588235294118
+      ]
+    },
+    "FR07 | Deck stone grey": {
+      "size": [
+        1024,
+        1024
+      ],
+      "roughness_range": [
+        0.8392156862745098,
+        0.9450980392156862
+      ]
+    },
+    "FR07 PBR | Graphics stairs": {
+      "size": [
+        1024,
+        1024
+      ],
+      "roughness_range": [
+        0.8392156862745098,
+        0.9450980392156862
+      ]
+    },
+    "FR07 PBR | Graphics column": {
+      "size": [
+        512,
+        512
+      ],
+      "roughness_range": [
+        0.3803921568627451,
+        0.48627450980392156
+      ]
+    },
+    "FR07 PBR | Graphics side": {
+      "size": [
+        512,
+        512
+      ],
+      "roughness_range": [
+        0.33725490196078434,
+        0.4470588235294118
+      ]
+    }
+  },
+  "v09_matches_original_C_pixels_where_available": true
+}
